@@ -13,7 +13,6 @@ set termguicolors
 
 call plug#begin()
 
-"Plug 'preservim/nerdtree'
 Plug 'kaicataldo/material.vim', { 'branch': 'main' }
 Plug 'vim-airline/vim-airline'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
@@ -23,6 +22,7 @@ Plug 'tpope/vim-fugitive'
 Plug 'kyazdani42/nvim-web-devicons'
 Plug 'kyazdani42/nvim-tree.lua'
 Plug 'cespare/vim-toml', { 'branch': 'main' }
+Plug 'octol/vim-cpp-enhanced-highlight'
 
 call plug#end()
 
@@ -36,6 +36,6 @@ inoremap {{     {
 inoremap {}     {}
 
 source ~/.vimrc
-colorscheme gruvbox
+colorscheme material
 
 lua require('nvimtree')
