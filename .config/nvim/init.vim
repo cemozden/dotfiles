@@ -32,6 +32,7 @@ Plug 'cespare/vim-toml', { 'branch': 'main' }
 Plug 'octol/vim-cpp-enhanced-highlight'
 Plug 'sainnhe/edge'
 Plug 'arzg/vim-colors-xcode'
+Plug 'morhetz/gruvbox'
 
 call plug#end()
 
@@ -47,6 +48,6 @@ inoremap {}     {}
 source ~/.vimrc
 
 set background=dark
-colorscheme xcodedarkhc
+colorscheme gruvbox
 
 lua require('nvimtree')
