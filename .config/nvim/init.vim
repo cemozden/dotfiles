@@ -7,7 +7,7 @@ set hlsearch
 set ignorecase
 set cursorline
 set title
-set background=dark
+set background=light
 set history=1000
 set termguicolors
 set t_Co=256
@@ -50,6 +50,6 @@ inoremap {}     {}
 
 source ~/.vimrc
 
-colorscheme gruvbox
+colorscheme xcodelighthc
 
 lua require('nvimtree')
