@@ -10,6 +10,7 @@ set title
 set background=dark
 set history=1000
 set termguicolors
+set t_Co=256
 
 if (has("nvim"))
   let $NVIM_TUI_ENABLE_TRUE_COLOR=1
@@ -33,6 +34,8 @@ Plug 'octol/vim-cpp-enhanced-highlight'
 Plug 'sainnhe/edge'
 Plug 'arzg/vim-colors-xcode'
 Plug 'morhetz/gruvbox'
+Plug 'tpope/vim-surround'
+Plug 'srcery-colors/srcery-vim'
 
 call plug#end()
 
@@ -47,7 +50,6 @@ inoremap {}     {}
 
 source ~/.vimrc
 
-set background=dark
 colorscheme gruvbox
 
 lua require('nvimtree')
