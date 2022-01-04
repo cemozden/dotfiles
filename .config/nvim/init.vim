@@ -1,4 +1,3 @@
-set number
 set runtimepath^=~/.vim runtimepath+=~/.vim/after
 set mouse=a
 set autoindent
@@ -38,8 +37,6 @@ Plug 'tpope/vim-surround'
 Plug 'srcery-colors/srcery-vim'
 
 call plug#end()
-
-syntax on
 
 let &packpath = &runtimepath
 

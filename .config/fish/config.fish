@@ -3,6 +3,7 @@ if status is-interactive
     set -x PATH $PATH . /home/ozdenc/bin/ /home/ozdenc/.local/share/gem/ruby/3.0.0/bin
     set -x EDITOR "nvim"
     set -x TERM "xterm-256color"
-    alias t "tmux"
+    alias t "tmux attach-session -d"
     alias py "python"
+    alias lssvc "systemctl list-units --type=service --all"
 end
