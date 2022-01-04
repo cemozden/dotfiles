@@ -35,6 +35,8 @@ Plug 'arzg/vim-colors-xcode'
 Plug 'morhetz/gruvbox'
 Plug 'tpope/vim-surround'
 Plug 'srcery-colors/srcery-vim'
+Plug 'zeis/vim-kolor'
+
 
 call plug#end()
 
@@ -47,6 +49,9 @@ inoremap {}     {}
 
 source ~/.vimrc
 
-colorscheme xcodelighthc
+let g:kolor_italic=0
+
+colorscheme kolor
 
 lua require('nvimtree')
+
