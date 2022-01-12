@@ -6,7 +6,7 @@ set hlsearch
 set ignorecase
 set cursorline
 set title
-set background=light
+set background=dark
 set history=1000
 set termguicolors
 set t_Co=256
@@ -35,7 +35,6 @@ Plug 'arzg/vim-colors-xcode'
 Plug 'morhetz/gruvbox'
 Plug 'tpope/vim-surround'
 Plug 'srcery-colors/srcery-vim'
-Plug 'zeis/vim-kolor'
 
 
 call plug#end()
@@ -51,7 +50,7 @@ source ~/.vimrc
 
 let g:kolor_italic=0
 
-colorscheme kolor
+colorscheme gruvbox
 
 lua require('nvimtree')
 
