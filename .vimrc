@@ -36,6 +36,7 @@ Plug 'bfrg/vim-cpp-modern'
 Plug 'cespare/vim-toml', { 'branch': 'main' }
 Plug 'rust-lang/rust.vim'
 Plug 'derekwyatt/vim-scala'
+Plug 'raimondi/delimitmate'
 
 call plug#end()
 
