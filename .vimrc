@@ -1,5 +1,5 @@
 set nocompatible
-set number
+set number relativenumber
 set t_Co=256
 set autoindent
 set shiftwidth=4
