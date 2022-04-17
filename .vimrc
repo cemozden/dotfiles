@@ -2,13 +2,16 @@ set nocompatible
 set number relativenumber
 set t_Co=256
 set autoindent
+set tabstop=4
 set shiftwidth=4
+set expandtab
 set hlsearch
 set ignorecase
 set cursorline
 set title
 set background=dark
 set mouse=a
+set wildignore+=*/tmp/*,*.so,*.swp,*.zip,*/target/*,*/build/*,*/cmake-build-debug/*
 
 if (has('termguicolors'))
   set termguicolors
@@ -80,3 +83,8 @@ nmap ga <Plug>(EasyAlign)
 
 let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
+
+let g:ctrlp_custom_ignore = {
+  \ 'dir':  '\v[\/]\.(git|hg|svn|target)$',
+  \ 'file': '\v\.(exe|so|dll)$',
+  \ }
