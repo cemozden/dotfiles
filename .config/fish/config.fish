@@ -7,4 +7,7 @@ if status is-interactive
     alias t "tmux attach-session -d"
     alias py "python"
     alias lssvc "systemctl list-units --type=service --all"
+    alias gs "git status"
+    alias gc "git commit"
+    alias gaa "git add ."
 end
