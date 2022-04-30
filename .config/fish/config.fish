@@ -10,4 +10,5 @@ if status is-interactive
     alias gs "git status"
     alias gc "git commit"
     alias gaa "git add ."
+    alias gp "git push"
 end
